@@ -36,6 +36,7 @@
         <li>1 kit Boticário</li>
         <li>1 Voucher Massagem Relaxante</li>
     </ul>
+    <h2>Valor R$ 5,00</h2>
     <p>ou ajude por meio da Vakinha </p>
     <a class="btn btn-success" target="_blank" href="https://www.vakinha.com.br/4275963">Clique aqui para colaborar</a>
     <a class="btn btn-warning" href="{{url('/')}}">Voltar</a>
