@@ -47,7 +47,7 @@
 <div class="container">
 
     <center><h1>Ação entre Amigos</h1></center>
-    <h2>Valor R$ 5,00</h2>
+
     <div class="container text-justify">
         <p>A Família Ferreira promove ação entre amigos em prol de José Afonso de Barros Ferreira, que desde 2022 busca
             diagnóstico conclusivo para Dissinergia, Estenose e Bexiga Hipoativa. Atualmente, encontra-se com uma sonda
@@ -69,6 +69,7 @@
         <li>1 kit Boticário</li>
         <li>1 Voucher Massagem Relaxante</li>
     </ul>
+    <h2>Valor R$ 5,00</h2>
     <p>ou ajude por meio da Vakinha </p>
     <a class="btn btn-success" target="_blank" href="https://www.vakinha.com.br/4275963">Clique aqui para colaborar</a>
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#meuModal">
