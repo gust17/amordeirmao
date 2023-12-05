@@ -18,10 +18,15 @@
     <div class="container text-justify">
         <p>A Família Ferreira promove ação entre amigos em prol de José Afonso de Barros Ferreira, que desde 2022 busca
             diagnóstico conclusivo para Dissinergia, Estenose e Bexiga Hipoativa. Atualmente, encontra-se com uma sonda
-            pela
-            bexiga, cistostomia, com a informação de uso da sonda para o resto da vida.</p>
-        <p>A destinação dos valores será para exames e cirurgia a serem realizados em Porto Alegre/RS. Como retribuição
-            serão sorteados no dia 05 de janeiro de 2024 às 20h, no Instagram @josiandreiasf, os seguintes prêmios:</p>
+            pela bexiga, cistostomia, com indicação médica de uso definitivo, ou seja, para o resto da vida.</p>
+        <p>Em outra avaliação médica, houve a solicitação de realização de exames específicos em centro
+            especializado.Tais exames, disponíveis em poucos Estados do país (São Paulo e Porto Alegre), são essenciais
+            para um diagnóstico preciso e tratamento, que deve ser acompanhado por urologista especialista em uretra,
+            dada a complexidade do caso, portanto, fora de Macapá.</p>
+
+        <p>A destinação dos valores será para exames e tratamento a serem realizados em Porto Alegre/RS. Como
+            retribuição serão sorteados no dia 05 de janeiro de 2024 às 20h, no Instagram @josiandreiasf, os seguintes
+            prêmios:</p>
         <h3>Siga o passo a passo</h3>
     </div>
     <ul>
@@ -47,17 +52,17 @@
                 </tr>
                 </thead>
                 <tbody>
-               @forelse($rifas as $rifa)
-                   <tr>
-                       <td>{{$rifa['name']}}</td>
-                       <td>{{$rifa['numero']}}</td>
-                       <td>{{$rifa->statusFormat() }}</td>
-                       <td>{{$rifa->created_at->format('d/m/Y')}}</td>
-                   </tr>
-               @empty
-                   <h1>Não foram encontrados</h1>
+                @forelse($rifas as $rifa)
+                    <tr>
+                        <td>{{$rifa['name']}}</td>
+                        <td>{{$rifa['numero']}}</td>
+                        <td>{{$rifa->statusFormat() }}</td>
+                        <td>{{$rifa->created_at->format('d/m/Y')}}</td>
+                    </tr>
+                @empty
+                    <h1>Não foram encontrados</h1>
 
-               @endforelse
+                @endforelse
 
                 </tbody>
             </table>
