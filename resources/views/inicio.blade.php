@@ -61,9 +61,11 @@
 
     </div>
     <ul>
-        <li> 1º Liquidificador</li>
-        <li> 2º Kit Natura</li>
-        <li> 3º Kit Natura</li>
+        <li>1 liquidificador</li>
+        <li>1 kit Natura Feminino</li>
+        <li>1 kit Natura Masculino</li>
+        <li>1 kit Boticário</li>
+        <li>1 Voucher Massagem Relaxante</li>
     </ul>
     <p>ou ajude por meio da Vakinha </p>
     <a class="btn btn-success" target="_blank" href="https://www.vakinha.com.br/4275963">Clique aqui para colaborar</a>
