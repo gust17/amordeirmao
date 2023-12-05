@@ -45,7 +45,9 @@
     </div>
 </div>
 <div class="container">
+
     <center><h1>Ação entre Amigos</h1></center>
+    <h2>Valor R$ 5,00</h2>
     <div class="container text-justify">
         <p>A Família Ferreira promove ação entre amigos em prol de José Afonso de Barros Ferreira, que desde 2022 busca
             diagnóstico conclusivo para Dissinergia, Estenose e Bexiga Hipoativa. Atualmente, encontra-se com uma sonda
