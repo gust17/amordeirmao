@@ -31,7 +31,7 @@
             <button class="btn btn-secondary" id="botao-copiar" onclick="copiarConteudo()">Copiar</button>
 
             <hr>
-            <a class="btn btn-success" target="_blank" href="https://api.whatsapp.com/send?phone=5596991189029&text=Olá este é compravante do Pix da compra nº {{$rifas[0]['compra']}}">Envie seu comprovante aqui </a>
+            <a class="btn btn-success" target="_blank" href="https://api.whatsapp.com/send?phone=5596991189029&text=Olá este é comprovante do Pix da compra nº {{$rifas[0]['compra']}}">Envie seu comprovante aqui </a>
         </div>
 
     </div>
