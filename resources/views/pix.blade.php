@@ -23,15 +23,15 @@
 
             <img class="img img-fluid" src="{{asset('img.png')}}" alt="">
             <br>
-            <strong>Beneficiário: </strong> Ingrid Clayse D Martins <br>
+            <strong>Beneficiário: </strong> Josirlan Ferreira <br>
 
-            <strong>Chave:</strong>(96) 98110-4257 <br>
+            <strong>Chave:</strong>josirlanafonsof@gmail.com <br>
 
-            <input id="campoParaCopiar" value="00020126360014BR.GOV.BCB.PIX0114+55969811042575204000053039865802BR5923Ingrid Clayse D Martins6006Macapa62070503***6304F9A6"><br>
+            <input id="campoParaCopiar" value="00020126470014BR.GOV.BCB.PIX0125josirlanafonsof@gmail.com5204000053039865802BR5917Josirlan Ferreira6006Macapa62080504rifa63049184"><br>
             <button class="btn btn-secondary" id="botao-copiar" onclick="copiarConteudo()">Copiar</button>
 
             <hr>
-            <a class="btn btn-success" target="_blank" href="https://api.whatsapp.com/send?phone=5596981104257&text=Olá este é compravante do Pix da compra nº {{$rifas[0]['compra']}}">Envie seu comprovante aqui </a>
+            <a class="btn btn-success" target="_blank" href="https://api.whatsapp.com/send?phone=5596991189029&text=Olá este é compravante do Pix da compra nº {{$rifas[0]['compra']}}">Envie seu comprovante aqui </a>
         </div>
 
     </div>
